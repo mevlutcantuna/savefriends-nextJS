@@ -1,0 +1,24 @@
+{
+  "name": "FirstExample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Can Tuna",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^10.1.3",
+    "next-redux-wrapper": "^6.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.3",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}

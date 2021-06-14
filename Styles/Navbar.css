@@ -1,0 +1,13 @@
+.navbar{
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3rem;
+
+}
+.navbar__link{
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,41 @@
+.homePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homePage__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.homePage__form__input{
+    width: 20rem;
+    height: 2.75rem;
+    margin-bottom: 0.75rem;
+    padding-left: 1rem;
+    border: 2px solid powderblue;
+    border-radius: 1rem;
+    outline: none;
+}
+
+.homePage__form__input:focus{
+    border: 2px solid #dc143c;
+}
+
+.homePage__form__button{
+    width: 7rem;
+    height: 2rem;
+    outline: none;
+    background: brown;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+.homePage__form__button:hover{
+    background: crimson;
+}
